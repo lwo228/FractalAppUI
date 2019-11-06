@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  FractalAppUI
 //
-//  Created by kristen on 11/4/19.
+//  Created by cmch237 on 11/4/19.
 //  Copyright © 2019 Team Name. All rights reserved.
 //
 
@@ -17,9 +17,14 @@ class aboutViewController: UIViewController , UITableViewDelegate , UITableViewD
         return(names.count)
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 60.0;
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "FractalCell")
         cell.textLabel?.text = names[indexPath.row]
+        cell.textLabel?.textColor = UIColor.systemBlue
         cell.backgroundColor = UIColor(red:0.18, green:0.06, blue:0.36, alpha:1.0)
         let backgroundView = UIView()
         backgroundView.backgroundColor = UIColor(red:0.27, green:0.09, blue:0.56, alpha:1.0)

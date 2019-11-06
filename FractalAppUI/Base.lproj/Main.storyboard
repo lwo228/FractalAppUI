@@ -197,9 +197,8 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fractal App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0J-Ms-utU">
-                                <rect key="frame" x="148" y="140" width="119" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fractal App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0J-Ms-utU">
+                                <rect key="frame" x="148" y="150" width="118.5" height="148"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -207,9 +206,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.1091483174" green="0.010516009620000001" blue="0.22271696890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="e0J-Ms-utU" firstAttribute="centerX" secondItem="VXf-Oq-A7h" secondAttribute="centerX" id="F7o-Xj-51S"/>
                             <constraint firstItem="WhE-Oj-2rs" firstAttribute="centerX" secondItem="VXf-Oq-A7h" secondAttribute="centerX" id="J8G-p4-LoG"/>
+                            <constraint firstItem="WhE-Oj-2rs" firstAttribute="top" secondItem="e0J-Ms-utU" secondAttribute="bottom" constant="10" id="PGt-vW-LLK"/>
                             <constraint firstItem="WhE-Oj-2rs" firstAttribute="centerY" secondItem="VXf-Oq-A7h" secondAttribute="centerY" id="PlX-Yz-GqG"/>
                             <constraint firstItem="WhE-Oj-2rs" firstAttribute="centerX" secondItem="VXf-Oq-A7h" secondAttribute="centerX" id="aAl-ru-gNW"/>
+                            <constraint firstItem="e0J-Ms-utU" firstAttribute="top" secondItem="m8u-YV-bD6" secondAttribute="top" constant="10" id="szJ-Yo-G4D"/>
                             <constraint firstItem="WhE-Oj-2rs" firstAttribute="centerY" secondItem="VXf-Oq-A7h" secondAttribute="centerY" id="yFl-zK-QBd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="m8u-YV-bD6"/>
